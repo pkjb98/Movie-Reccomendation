@@ -14,11 +14,11 @@ import pickle
 
 # loading the dataset package
 
-movies = pickle.load(open('C:/Users/J.B.pradeep kumar/Downloads/Movie-Reccomendation/movies.pkl','rb'))
+movies = pickle.load(open('movies.pkl','rb'))
 
 # loading the trained model
 
-loaded_model = pickle.load(open('C:/Users/J.B.pradeep kumar/Downloads/Movie-Reccomendation/trained_pkl_movie_model.pkl','rb'))
+loaded_model = pickle.load(open('trained_pkl_movie_model.pkl','rb'))
 
 # list of all movie sin the package
 
